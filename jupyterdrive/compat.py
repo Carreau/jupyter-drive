@@ -6,3 +6,6 @@ try:
 except ImportError:
     import IPython.html.nbextensions as nbe
     JUPYTER=False
+
+#silence pyflakes
+nbe
